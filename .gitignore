@@ -1,0 +1,46 @@
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+
+# Build
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Environment / Secrets
+.env
+*.env
+Secrets.plist
+Config.xcconfig
+
+# Supabase (local dev)
+supabase/.temp/
+supabase/.branches/
