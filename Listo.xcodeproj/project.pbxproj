@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA77F6162F476A8A006A9D8B /* db.sql in Resources */ = {isa = PBXBuildFile; fileRef = AA77F6152F476A80006A9D8B /* db.sql */; };
+		AA77F6182F476ACD006A9D8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA77F6172F476AC0006A9D8B /* README.md */; };
 		AA8582552F253C2C00D21CCF /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = AA8582542F253C2C00D21CCF /* Auth */; };
 		AA8582572F253C2C00D21CCF /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = AA8582562F253C2C00D21CCF /* Functions */; };
 		AA8582592F253C2C00D21CCF /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = AA8582582F253C2C00D21CCF /* PostgREST */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA77F6152F476A80006A9D8B /* db.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = db.sql; sourceTree = "<group>"; };
+		AA77F6172F476AC0006A9D8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AA8582292F253BDC00D21CCF /* Listo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Listo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8582362F253BDE00D21CCF /* ListoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8582402F253BDE00D21CCF /* ListoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,8 @@
 		AA8582202F253BDC00D21CCF = {
 			isa = PBXGroup;
 			children = (
+				AA77F6152F476A80006A9D8B /* db.sql */,
+				AA77F6172F476AC0006A9D8B /* README.md */,
 				AA8582642F253E5000D21CCF /* Config.xcconfig */,
 				AA85822B2F253BDC00D21CCF /* Listo */,
 				AA8582392F253BDE00D21CCF /* ListoTests */,
@@ -252,6 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA77F6162F476A8A006A9D8B /* db.sql in Resources */,
+				AA77F6182F476ACD006A9D8B /* README.md in Resources */,
 				AA8582652F253E5000D21CCF /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
